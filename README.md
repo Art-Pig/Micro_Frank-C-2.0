@@ -39,3 +39,14 @@ int banana(void){
 
 每一个C语言程序只有一个main函数，每一个C语言包（可能有多个C语言程序）也只能有一个main；
 
+一个字节有8位bit,byte
+
+char 一个字节
+
+int 4/2个字节
+
+unsigned char -128~127
+
+(-2^7-1)~(2^7-1)
+
+
