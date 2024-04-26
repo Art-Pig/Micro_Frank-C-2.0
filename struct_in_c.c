@@ -14,24 +14,20 @@
 
 #include <stdio.h>
 
-struct class {
+struct libary {
 
-  int numbers;
+	int numbers;
 
-  string name;
+	char name[100];
 
-}libary;  //构造一个名为libary的数据类型
+};  //构造一个名为libary的数据类型
 
-int mian(void){
+int main(void) {
 
-  libary little;  //声明变量
+	struct libary little = { 2,"litlle pricine" };; //声明变量 ,为其赋值
 
-  little.numbers = 2;  //为其赋值
+	printf("The \"little\" Numbers is %d and the name is %s. \n", little.numbers, little.name);  //打印出它的数据
 
-  little.name = "little pricne";
-
-  println("The \"little\" Numbers is %d and the name is %s. \n",numbers,name);  //打印出它的数据
-
-  return 0;
+	return 0;
 
 }
